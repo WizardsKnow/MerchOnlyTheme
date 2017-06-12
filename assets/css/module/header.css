@@ -1,0 +1,26 @@
+.header {
+	background: var(--primary-color);
+	border-bottom: 2px solid var(--secondary-color);
+	box-sizing: border-box;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.header__wrapper {
+	align-items: center;
+	display: flex;
+	height: var(--header-mobile-height);
+	justify-content: space-between;
+}
+@media(min-width: 768px) {
+	.header__wrapper {
+		height: var(--header-height);
+	}
+}
+
+.banner {
+	margin: 0 0 30px;
+	width: 100%;
+}

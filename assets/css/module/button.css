@@ -1,0 +1,47 @@
+.button {
+	--button-background: var(--primary-color);
+	--button-color: var(--secondary-color);
+	--button-border-color: var(--secondary-color);
+
+	background: var(--button-background) !important;
+	border: 1px solid var(--button-border-color) !important;
+	border-radius: 5px !important;
+	box-sizing: border-box;
+	color: var(--button-color) !important;
+	font-size: 17px !important;
+	font-weight: 700 !important;
+	margin: 0 !important;
+	padding: 10px 25px !important;
+	text-align: center;
+	text-decoration: none !important;
+	transition: all 0.15s !important;
+}
+@media(max-width: 767px) {
+	.button {
+		font-size: 14px !important;
+		padding: 15px !important;
+		width: 100%;
+	}
+}
+.button:hover {
+	--button-hover-background: var(--secondary-color);
+	--button-hover-color: var(--primary-color);
+
+	background: var(--button-hover-background) !important;
+	color: var(--button-hover-color) !important;
+}
+.button.alt {
+	--button-background: var(--primary-color);
+	--button-color: var(--secondary-color);
+	--button-border-color: var(--secondary-color);
+
+	background: var(--button-background) !important;
+	color: var(--button-color) !important;
+}
+.button.alt:hover {
+	--button-hover-background: var(--secondary-color);
+	--button-hover-color: var(--primary-color);
+
+	background: var(--button-hover-background) !important;
+	color: var(--button-hover-color) !important;
+}

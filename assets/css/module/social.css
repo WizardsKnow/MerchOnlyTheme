@@ -1,0 +1,26 @@
+.social {
+	display: flex;
+	justify-content: center;
+	list-style: none;
+	margin: 0 0 30px;
+	padding: 0;
+}
+
+.social__icon {
+	color: var(--primary-color);
+	margin: 0 15px;
+	text-decoration: none;
+	transition: color 0.25s;
+	&:first-child {
+		margin: 0 15px 0 0;
+	}
+}
+.social__icon:before {
+	font-size: 30px;
+}
+.social__icon:hover {
+	color: var(--secondary-color);
+}
+.social__icon:last-child {
+	margin: 0 0 0 15px;
+}

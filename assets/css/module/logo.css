@@ -1,0 +1,12 @@
+.custom-logo-link {
+	color: var(--secondary-color);
+	font-size: 52px;
+	font-weight: 700;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.custom-logo {
+	height: initial;
+	width: var(--logo-width);
+}

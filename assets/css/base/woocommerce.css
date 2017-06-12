@@ -1,0 +1,93 @@
+/* SALE ICON - PRODUCT LIST PAGE */
+@media(min-width: 768px) {
+	.archive.woocommerce span.onsale {
+		right: -4.9% !important;
+		top: -3.2% !important;
+	}
+}
+
+/* SALE ICON */
+.woocommerce span.onsale {
+	background: var(--secondary-color) !important;
+}
+
+/* PRODUCT LIST ITEM */
+@media(max-width: 767px) {
+	.products li {
+		width: 100% !important;
+	}
+}
+
+/* SET PRODUCT IMAGE TO FULL WIDTH ON MOBILE */
+.woocommerce-product-gallery__wrapper {
+	margin: 0 !important;
+}
+
+/* WOOCOMMERCE BREADCRUMBS */
+.woocommerce-breadcrumb {
+	margin: 0 0 30px !important;
+}
+
+/* PRODUCT TITLE */
+.woocommerce-loop-product__title,
+.product_title.entry-title {
+	color: var(--secondary-color) !important;
+	font-size: 19px !important;
+	font-weight: 400 !important;
+}
+
+/* PRODUCT IMAGE */
+@media(min-width: 768px) {
+	.woocommerce #content div.product div.images,
+	.woocommerce div.product div.images,
+	.woocommerce-page #content div.product div.images,
+	.woocommerce-page div.product div.images {
+		width: 30% !important;
+	}
+}
+
+/* PRICE */
+.woocommerce div.product p.price, .woocommerce div.product span.price,
+.woocommerce ul.products li.product .price {
+	color: red !important;
+	font-size: 20px !important;
+}
+.woocommerce ul.products li.product .price ins,
+.woocommerce div.product p.price ins, .woocommerce div.product span.price ins {
+	text-decoration: none !important;
+}
+
+/* STOCK */
+.stock {
+	font-size: 20px !important;
+}
+
+/* PRODUCT QUANTITY INPUT */
+.summary .input-text.qty.text {
+	font-size: 32px;
+}
+@media(max-width: 767px) {
+	.input-text.qty.text {
+		margin: 0 0 15px;
+	}
+}
+
+/* COUPON CODE INPUT */
+#coupon_code {
+	margin: 6px 5px 0 0;
+}
+@media(min-width: 768px) {
+	#coupon_code {
+		max-width: 150px;
+		width: 100%;
+	}
+}
+
+/* LINKS */
+.woocommerce-account .woocommerce a {
+	color: var(--primary-color);
+	text-decoration: none;
+}
+.woocommerce-account .woocommerce a:hover {
+	color: var(--secondary-color);
+}

@@ -1,0 +1,33 @@
+.timer {
+	align-items: center;
+	background: var(--secondary-color);
+	box-sizing: initial !important;
+	color: #FFF;
+	display: flex;
+	font-size: 18px;
+	height: 40px;
+	position: fixed;
+	top: var(--header-mobile-height);
+	width: 100%;
+	z-index: -1;
+}
+@media (max-width: 767px) {
+	.timer {
+		padding: 10px 0;
+	}
+}
+@media (min-width: 768px) {
+	.timer {
+		top: var(--header-height);
+	}
+}
+
+.timer__wrapper {
+	text-align: center;
+}
+@media (min-width: 768px) {
+	.timer__wrapper {
+		display: flex;
+		justify-content: center;
+	}
+}
