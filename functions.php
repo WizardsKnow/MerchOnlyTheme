@@ -31,6 +31,9 @@
 		add_theme_support( 'woocommerce' );
 	}
 
+	// Pre-populate ACF Fields
+	include 'acf-fields.php';
+
 	// Add Options Page
 	if( function_exists('acf_add_options_page') ) {
 		acf_add_options_page([
