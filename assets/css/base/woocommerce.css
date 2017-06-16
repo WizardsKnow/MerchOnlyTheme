@@ -92,14 +92,6 @@
 	color: var(--primary-color);
 }
 
-.reset_variations {
-	color: var(--secondary-color);
-	text-decoration: none;
-}
-.reset_variations:hover {
-	color: var(--primary-color);
-}
-
 /* LABEL */
 .woocommerce .label {
 	padding-right: 0 !important;
@@ -111,4 +103,17 @@
 	font-size: 1em;
 	min-width: initial !important;
 	padding: 10px;
+}
+
+/* VARIATIONS */
+.variations {
+	margin-bottom: 30px !important;
+}
+
+.reset_variations {
+	color: var(--secondary-color);
+	text-decoration: none;
+}
+.reset_variations:hover {
+	color: var(--primary-color);
 }
