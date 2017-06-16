@@ -8,5 +8,10 @@
 
 .custom-logo {
 	height: initial;
-	width: var(--logo-width);
+	width: var(--logo-mobile-width);
+}
+@media(min-width: 768px) {
+	.custom-logo {
+		width: var(--logo-desktop-width);
+	}
 }

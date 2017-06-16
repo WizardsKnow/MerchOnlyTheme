@@ -13,7 +13,8 @@
 			--header-height: <?php the_field('desktop_height', 'option'); ?>px;
 			--header-mobile-height: <?php the_field('mobile_height', 'option'); ?>px;
 
-			--logo-width: <?php the_field('width', 'option'); ?>px;
+			--logo-desktop-width: <?php the_field('desktop_width', 'option'); ?>px;
+			--logo-mobile-width: <?php the_field('mobile_width', 'option'); ?>px;
 		}
 	</style>
 	<?php wp_head(); ?>
