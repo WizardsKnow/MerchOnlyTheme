@@ -68,7 +68,7 @@
 }
 @media(max-width: 767px) {
 	.input-text.qty.text {
-		margin: 0 0 15px;
+		margin: 0 15px 15px 0;
 	}
 }
 
