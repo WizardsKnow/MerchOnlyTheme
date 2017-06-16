@@ -286,7 +286,7 @@
 				'min' => 0,
 				'max' => 0,
 				'layout' => 'table',
-				'button_label' => '',
+				'button_label' => 'Add Link',
 				'sub_fields' => array (
 					array (
 						'key' => 'field_5937206bf8747',
