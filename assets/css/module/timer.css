@@ -27,6 +27,7 @@
 }
 @media (min-width: 768px) {
 	.timer__wrapper {
+		align-items: center;
 		display: flex;
 		justify-content: center;
 	}
