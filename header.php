@@ -43,7 +43,7 @@
 					<div class="timer__wrapper">
 						<span><?php the_field('countdown_message', 'option'); ?></span>
 						&nbsp;
-						<?php echo do_shortcode( '[Wow-Countdowns id=' . get_field('countdown_id', 'option') . ']' ); ?>
+						<?php echo do_shortcode( '[Wow-Countdowns-Pro id=' . get_field('countdown_id', 'option') . ']' ); ?>
 					</div>
 				</div>
 			</div>
